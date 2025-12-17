@@ -1,5 +1,5 @@
 import java.math.BigInteger;
-class Solution {
+class AddBinary {
     public String addBinary(String a, String b) {
         BigInteger num = new BigInteger(a,2); // stroring binary string as a number
         BigInteger num1 = new BigInteger(b,2); // stroring binary string as a number

@@ -1,4 +1,4 @@
-class Solution {
+class SortColor {
     public void switchThem(int[] nums, int x, int y) { // function to swap elements
         int temp = nums[x];
         nums[x] = nums[y];

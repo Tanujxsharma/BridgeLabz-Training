@@ -1,5 +1,5 @@
 
-class Solution {
+class PalindromeNumber {
     public boolean isPalindrome(int x) {
         int reversed = 0;
         int original = x;
