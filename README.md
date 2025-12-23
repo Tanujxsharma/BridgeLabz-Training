@@ -1,4 +1,4 @@
-# BridgeLabz-Training<h1>🚀 BridgeLabz Training Program – Core Java Programming</h1>
+<h1>🚀 BridgeLabz Training Program – Core Java Programming</h1>
 
 Welcome to the BridgeLabz Core Java Training Repository.
 This repository documents a structured learning journey in Core Java, covering programming fundamentals, control flow, and problem-solving through hands-on practice.
@@ -37,123 +37,65 @@ BridgeLabz-Training/
 ```
 
 Each branch focuses on specific learning objectives and problem sets.
+<h2>🔗 Direct Folder Links</h2>
+
+📂 Core Java Practice
+👉 [Core Java Pratices](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice)
+
+📂 GCR Codebase (Daily Google ClassRoom Assignment)
+👉 [GCR Codebase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase)
+
+📂 Programming Elements
+👉 [Programing Elements](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+
+📂 Control Flow
+👉 [Control Flows](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+
+📂 LeetCode Codebase (Problem Solved on Leetcode)
+👉[LeetCode CodeBase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
 
-- **Day 1:** Programming elements problems solved.
-- **Day 2:** Programming elements — Level 1 and Level 2 solved.
-- **Day 3:** Control flow problems solved.
-
+- **16/dec/2025:** Kick Off Session. 
+- **17/dec/2025:** Programming elements Basic problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+- **18/dec/2025:** Programming element Level 1 and Level 2 problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+- **19/dec/2025:** Control flow Level 1 ,Level 2 and Level 3 Problems Solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+- **20/dec/2025:** Arrays Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+- **22/dec/2025:** String Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+- **23/dec/2025:** Methods Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 All exercises are mapped under
 `core-java-practice/gcr-codebase/`
 
-<h2>🧠 Key Concepts Covered</h2>
-
-Java Basics
-
-Variables, Data Types, Operators
-
-Input/Output (Scanner, System.out)
-
-Control Flow
-
-if, else, switch
-
-Loops: for, while, do-while
-
-Methods & Modularity
-
-Single-responsibility methods
-
-Clean and readable logic
-
-Number Theory Problems
-
-Prime Numbers
-
-Armstrong, Harshad, Abundant Numbers
-
-Factors and divisibility checks
-
-Arrays & Iteration
-
-Basic array operations
-
-Loop-based problem solving
-
-Problem-Solving Patterns
-
-Iterative logic
-
-Conditional decomposition
-
-Edge case handling
-
 <h2>▶️ How to Run Java Programs</h2>
-Compile and Run a Single File
-# Compile
-javac ExampleProblem.java
+Compile and Run a Single File 
+
+# Compile 
+
+javac ExampleProblem.java 
 
 # Run
 java ExampleProblem
 
-
 If packages are used:
-
 java path.to.ExampleProblem
 
-🛠 Technology Stack
+<h2>🛠 Technology Stack</h2>
 
-Language: Java
+Language: Java ,JDK: 11+ (17 recommended) 
 
-JDK: 11+ (17 recommended)
-
-Build Tool: None (single-file compilation)
-
-Optional: Maven / Gradle (for project conversion)
+Build Tool: None (single-file compilation) 
 
 Version Control: Git & GitHub
 
-<h2>📈 Project Statistics (Approx.)</h2>
-
-Total Problems: 50+ Java exercises
-
-Lines of Code: 1000+
-
-Topics Covered: Core Java fundamentals, control flow, number theory, algorithms
-
 <h2>✅ Code Quality & Practices</h2>
-
 One problem per file for clarity
-
 Meaningful class and file names
-
 Simple and readable implementations
-
 Input validation where applicable
-
 Focus on learning and correctness over optimization
 
-<h2>🚀 Getting Started</h2>
-Prerequisites
-
-Java JDK 11+
-👉 https://adoptium.net
-
-Git installed
-
-Any Java-supported IDE (optional)
-
-Clone the Repository
-git clone <repository-url>
-cd BridgeLabz-Training
-
-
 <h2>📅 Last Updated</h2>
-
 December 2025
-
 <h2>👤 Author</h2>
-
 Tanuj Sharma
