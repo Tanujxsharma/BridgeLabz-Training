@@ -1,4 +1,4 @@
-<h1>🚀 BridgeLabz Training Program – Core Java Programming</h1>
+<h1>🚀 BridgeLabz Training Program </h1>
 
 Welcome to the BridgeLabz Core Java Training Repository.
 This repository documents a structured learning journey in Core Java, covering programming fundamentals, control flow, and problem-solving through hands-on practice.
@@ -58,13 +58,16 @@ Each branch focuses on specific learning objectives and problem sets.
 Daily / Level-wise Breakdown
 
 - **16/dec/2025:** Kick Off Session. 
-- **17/dec/2025:** Programming elements Basic problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **18/dec/2025:** Programming element Level 1 and Level 2 problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **19/dec/2025:** Control flow Level 1 ,Level 2 and Level 3 Problems Solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
-- **20/dec/2025:** Arrays Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
-- **22/dec/2025:** String Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
-- **23/dec/2025:** Methods Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+- **17/dec/2025:** Programming elements Basic problems solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+- **18/dec/2025:** Programming element Level 1 and Level 2 problems solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
+- **19/dec/2025:** Control flow Level 1 ,Level 2 and Level 3 Problems Solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+- **20/dec/2025:** Arrays Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
+- **22/dec/2025:** String Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+- **23/dec/2025:** Methods Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
+- **23/dec/2025:** String Extra Problems solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+
 All exercises are mapped under
+
 `core-java-practice/gcr-codebase/`
 
 <h2>▶️ How to Run Java Programs</h2>
