@@ -19,20 +19,27 @@ IDE Support: IntelliJ IDEA / Eclipse / VS Code (Java Extensions)
 Author: Tanuj Sharma
 ```
 BridgeLabz-Training/
-|
-+-- core-java-practice/
-|   |
-|   +-- gcr-codebase/
-|   |   |
-|   |   +-- programming-elements/
-|   |   |
-|   |   +-- control-flow/
-|   |
-|   +-- leet-code-codebase/
-|   |
-|   +-- scenario-based/
-|
-+-- README.md
+│
+├── core-java-practice/            (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── programming-elements/
+│   │   └── control-flow/
+│   │
+│   ├── leet-code-codebase/
+│   │
+│   └── scenario-based/
+│
+├── oops-practice/                 (Branch & Folder Name)
+│   │
+│   ├── gcr-codebase/
+│   │   ├── inheritance/
+│   │   ├── encapsulation/
+│   │   └── polymorphism/
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
 
 ```
 
@@ -51,8 +58,8 @@ Each branch focuses on specific learning objectives and problem sets.
 📂 LeetCode Codebase (Problem Solved on Leetcode)
 👉[LeetCode CodeBase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
 
-📂 Oops 
-👉 [Oop ](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop)
+📂 Oops Practice
+👉 [Oops-Practice](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice)
 
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
@@ -66,7 +73,7 @@ Daily / Level-wise Breakdown
 - **23/dec/2025:** Methods Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 - **23/dec/2025:** String Extra Problems solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 - **24/dec/2025:** Class And Object problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop/oop/gcr-codebase/class-and-object)
-
+- **24/dec/2025:** Constructors problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/constructors)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
