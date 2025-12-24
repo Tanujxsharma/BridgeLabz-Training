@@ -45,14 +45,14 @@ Each branch focuses on specific learning objectives and problem sets.
 📂 GCR Codebase (Daily Google ClassRoom Assignment)
 👉 [GCR Codebase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase)
 
-📂 Programming Elements
-👉 [Programing Elements](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-
-📂 Control Flow
-👉 [Control Flows](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
+📂 Scenario Based (Scenario Based Problems)
+👉 [Scenario Based ](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
 
 📂 LeetCode Codebase (Problem Solved on Leetcode)
 👉[LeetCode CodeBase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
+
+📂 Oops 
+👉 [Oop ](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop)
 
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
@@ -65,10 +65,8 @@ Daily / Level-wise Breakdown
 - **22/dec/2025:** String Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 - **23/dec/2025:** Methods Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
 - **23/dec/2025:** String Extra Problems solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+- **24/dec/2025:** Class And Object problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop/oop/gcr-codebase/class-and-object)
 
-All exercises are mapped under
-
-`core-java-practice/gcr-codebase/`
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
