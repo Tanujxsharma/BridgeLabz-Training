@@ -74,6 +74,10 @@ Daily / Level-wise Breakdown
 - **23/dec/2025:** String Extra Problems solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
 - **24/dec/2025:** Class And Object problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop/oop/gcr-codebase/class-and-object)
 - **24/dec/2025:** Constructors problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/constructors)
+- **26/dec/2025:** this, static, final key words and instanceof operator problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/keywords)
+- **26/dec/2025:** Object Oriented Design Principles problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/design-princeples)
+- **26/dec/2025:** Inheritance problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/inheritance)
+- **26/dec/2025:** Encapsulation, Polymorphism, Interface and Abstract Class problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/oops-piller)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
