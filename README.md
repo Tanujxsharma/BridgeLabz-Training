@@ -40,6 +40,17 @@ BridgeLabz-Training/
 │   ├── scenario-based/
 │   │
 │   └── leet-code-codebase/
+|
+├── dsa-practices/
+|   |
+|   ├── gcr-codebase/
+│   │   ├── linkedlist/
+│   │   ├── stack,queue/
+│   │   
+│   │
+│   ├── scenario-based/
+│   │
+│   └── leet-code-codebase/
 
 ```
 
@@ -80,7 +91,7 @@ Daily / Level-wise Breakdown
 - **26/dec/2025:** Object Oriented Design Principles problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/design-princeples)
 - **26/dec/2025:** Inheritance problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/inheritance)
 - **26/dec/2025:** Encapsulation, Polymorphism, Interface and Abstract Class problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/oops-piller)
--**30/dec/2025:** Linked List problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
+- **30/dec/2025:** Linked List problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
