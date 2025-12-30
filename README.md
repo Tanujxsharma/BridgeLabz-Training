@@ -41,7 +41,7 @@ BridgeLabz-Training/
 │   │
 │   └── leet-code-codebase/
 |
-├── dsa-practices/
+├── dsa-practice/                 (Branch & Folder Name)
 |   |
 |   ├── gcr-codebase/
 │   │   ├── linkedlist/
