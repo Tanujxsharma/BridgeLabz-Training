@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class EmployeeWageComputation {
+public class EmployeeWage {
 
     // Constants
     static final int IS_PART_TIME = 1;
