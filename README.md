@@ -92,6 +92,8 @@ Daily / Level-wise Breakdown
 - **26/dec/2025:** Inheritance problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/inheritance)
 - **26/dec/2025:** Encapsulation, Polymorphism, Interface and Abstract Class problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/oops-piller)
 - **30/dec/2025:** Linked List problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
+- **31/dec/2025:** Scenario based questation in opps [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/scenario-based)
+- **31/dec/2025:** linear and binary search problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-and-binary-search)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
