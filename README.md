@@ -94,6 +94,7 @@ Daily / Level-wise Breakdown
 - **30/dec/2025:** Linked List problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
 - **31/dec/2025:** Scenario based questation in opps [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/scenario-based)
 - **31/dec/2025:** linear and binary search problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-and-binary-search)
+- **01/jan/2026:** time and space complexity analysis [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/time-and-space-complexity)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
@@ -124,6 +125,6 @@ Input validation where applicable
 Focus on learning and correctness over optimization
 
 <h2>📅 Last Updated</h2>
-December 2025
+January 2026
 <h2>👤 Author</h2>
 Tanuj Sharma
