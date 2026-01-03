@@ -74,6 +74,9 @@ Each branch focuses on specific learning objectives and problem sets.
 
 📂 DSA Practice 
 👉 [dsa-practice](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice)
+
+📂 Collection Practice
+👉 [collection-practice](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice)
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
 
@@ -95,6 +98,7 @@ Daily / Level-wise Breakdown
 - **31/dec/2025:** Scenario based questation in opps [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/scenario-based)
 - **31/dec/2025:** linear and binary search problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-and-binary-search)
 - **01/jan/2026:** time and space complexity analysis [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/time-and-space-complexity)
+- **02/jan/2026:** generics problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
