@@ -3,8 +3,6 @@
 Welcome to the BridgeLabz Core Java Training Repository.
 This repository documents a structured learning journey in Core Java, covering programming fundamentals, control flow, and problem-solving through hands-on practice.
 
-📌 Designed as part of the BridgeLabz Training Program
-🎯 Focus: Strong Java fundamentals, logic building, and clean coding practices
 
 <h2>📊 Repository Status</h2>
 
