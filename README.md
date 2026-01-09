@@ -73,15 +73,6 @@ Each branch focuses on specific learning objectives and problem sets.
 📂 Core Java Practice
 👉 [Core Java Pratices](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice)
 
-📂 GCR Codebase (Daily Google ClassRoom Assignment)
-👉 [GCR Codebase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase)
-
-📂 Scenario Based (Scenario Based Problems)
-👉 [Scenario Based ](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/scenario-based)
-
-📂 LeetCode Codebase (Problem Solved on Leetcode)
-👉[LeetCode CodeBase](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/leet-code-codebase)
-
 📂 Oops Practice
 👉 [Oops-Practice](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice)
 
