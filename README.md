@@ -105,6 +105,8 @@ Daily / Level-wise Breakdown
 - **07/jan/2026:** collection problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
 - **07/jan/2026:** streams problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/streams)
 - **09/jan/2026:** exception handling problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
+- **13/jan/2026:** regex and Junit problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-and-junit)
+
 
 <h2>▶️ How to Run Java Programs</h2>
 Compile and Run a Single File 
