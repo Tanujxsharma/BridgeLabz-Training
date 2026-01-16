@@ -106,6 +106,8 @@ Daily / Level-wise Breakdown
 - **07/jan/2026:** streams problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/streams)
 - **09/jan/2026:** exception handling problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
 - **13/jan/2026:** regex and Junit problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-and-junit)
+- **16/jan/2026:** reflection practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
+- **16/jan/2026:** annotation practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
 
 
 <h2>▶️ How to Run Java Programs</h2>
