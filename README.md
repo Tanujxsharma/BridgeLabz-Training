@@ -184,5 +184,4 @@ java package.name.ExampleProblem
 
 <p>
 <b>Tanuj Sharma</b><br/>
-BridgeLabz Java Training Program
 </p>
