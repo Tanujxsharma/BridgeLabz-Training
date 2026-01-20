@@ -1,0 +1,21 @@
+ID,Name,Department,Salary
+
+101,John Doe,Engineering,75000
+
+102,Jane Smith,It,65000
+
+103,Bob Johnson,Sales,55000
+
+104,Alice Williams,It,60000
+
+105,Chris Evans,Finance,70000ID,Name,Department,Salary
+
+101,John Doe,Engineering,75000
+
+102,Jane Smith,It,71500.00
+
+103,Bob Johnson,Sales,55000
+
+104,Alice Williams,It,66000.00
+
+105,Chris Evans,Finance,70000
