@@ -1,19 +1,10 @@
-<h1 align="center">🚀 BridgeLabz Core Java Training Program</h1>
+<h1 align="center"> BridgeLabz Training Program</h1>
 
 <p align="center">
-  A structured and hands-on learning journey through Core Java, OOPS, DSA, and Java Collections
+  A structured and hands-on learning journey 
 </p>
 
 <hr/>
-
-<h2>📘 About the Repository</h2>
-
-<p>
-Welcome to the <b>BridgeLabz Core Java Training Repository</b>.
-This repository documents a <b>structured and progressive learning path</b> covering
-<b>Core Java fundamentals</b>, <b>Object-Oriented Programming</b>,
-<b>Data Structures & Algorithms</b>, and the <b>Java Collections Framework</b>.
-</p>
 
 <p>
 The purpose of this repository is to strengthen Java concepts,
