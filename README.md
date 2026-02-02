@@ -86,6 +86,7 @@ BridgeLabz-Training/
 │   │   ├── json-datahandling/
 │   ├── scenario-based/
 │   └── leet-code-codebase/
+|
 ├── java-8-features-practice/
 │   ├── gcr-codebase/
 │   │   ├── functional-interface/
@@ -166,7 +167,7 @@ Daily / Level-wise Breakdown
 - **13/jan/2026:** regex and Junit problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-and-junit)
 - **16/jan/2026:** reflection practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
 - **16/jan/2026:** annotation practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
-- **21/jan/2026:** Csv data handling [Link] (https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-data-handling)
+- **21/jan/2026:** Csv data handling [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-data-handling)
 - **27/jan/2026:** Json data handling [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
 - **29/jan/2026:** Lamabda function problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
 - **30/jan/2026:** Functional Interface problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/functional-interface)
