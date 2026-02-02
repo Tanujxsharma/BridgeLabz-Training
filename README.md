@@ -80,6 +80,21 @@ BridgeLabz-Training/
 │   ├── scenario-based/
 │   └── leet-code-codebase/
 │
+├── io-programming-practice/
+│   ├── gcr-codebase/
+│   │   ├── csv-datahandling/
+│   │   ├── json-datahandling/
+│   ├── scenario-based/
+│   └── leet-code-codebase/
+├── java-8-features-practice/
+│   ├── gcr-codebase/
+│   │   ├── functional-interface/
+│   │   ├── lambda-excressions/
+│   │   ├── stream-api/
+│   ├── scenario-based/
+│   └── leet-code-codebase/
+│
+│
 └── reviews/
 </pre>
 
@@ -108,15 +123,20 @@ BridgeLabz-Training/
       View Branch
     </a>
   </li>
+   <li>📂 <b>IO programming </b> —
+    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice">
+      View Branch
+    </a>
+  </li>
+  <li>📂 <b>Java 8 and it's features  </b> —
+    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice">
+      View Branch
+    </a>
+  </li>
 </ul>
 
 <hr/>
 
-<h2>📅 Learning Timeline & Progress</h2>
-
-<<<<<<< HEAD
-📂 Collection Practice
-👉 [collection-practice](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice)
 <h2>📅 Learning Progression</h2>
 Daily / Level-wise Breakdown
 
@@ -146,28 +166,12 @@ Daily / Level-wise Breakdown
 - **13/jan/2026:** regex and Junit problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-and-junit)
 - **16/jan/2026:** reflection practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
 - **16/jan/2026:** annotation practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
-- **
-=======
-<ul>
-  <li><b>16 Dec 2025</b> – Kick-off Session</li>
-  <li><b>17 Dec 2025</b> – Programming Elements (Basic Problems)</li>
-  <li><b>18 Dec 2025</b> – Programming Elements (Level 1 & Level 2)</li>
-  <li><b>19 Dec 2025</b> – Control Flow (Level 1, 2 & 3)</li>
-  <li><b>20 Dec 2025</b> – Arrays</li>
-  <li><b>22 Dec 2025</b> – Strings</li>
-  <li><b>23 Dec 2025</b> – Methods & String (Additional Practice)</li>
-  <li><b>24 Dec 2025</b> – Classes, Objects & Constructors</li>
-  <li><b>26 Dec 2025</b> – Keywords, Design Principles, Inheritance, OOPS Pillars</li>
-  <li><b>30 Dec 2025</b> – Linked List</li>
-  <li><b>31 Dec 2025</b> – OOPS Scenarios & Searching Algorithms</li>
-  <li><b>01 Jan 2026</b> – Time & Space Complexity</li>
-  <li><b>02 Jan 2026</b> – Generics</li>
-  <li><b>07 Jan 2026</b> – Collections & Streams</li>
-  <li><b>09 Jan 2026</b> – Exception Handling</li>
-  <li><b>13 Jan 2026</b> – Regex & JUnit</li>
-  <li><b>16 Jan 2026</b> – Reflection & Annotations</li>
-</ul>
->>>>>>> 3626dd63f33b6ccd074d3b11bffa187936a4b8b9
+- **21/jan/2026:** Csv data handling [Link] (https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-data-handling)
+- **27/jan/2026:** Json data handling [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
+- **29/jan/2026:** Lamabda function problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
+- **30/jan/2026:** Functional Interface problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/functional-interface)
+- **31/jan/2026:** Stream Api Problemed solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/stream-api)
+- **31/jan/2026:** Collectors [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/collectors)
 
 <hr/>
 
