@@ -1,10 +1,11 @@
 
-
 public class EmployeeWageMain {
 
     public static void main(String[] args) {
 
         System.out.println("Welcome to Employee Wage Computation Program on Master Branch");
+        System.out.println("START");
+        System.out.println();
 
         EmpWageComputation empWageBuilder = new EmpWageBuilder();
 
@@ -14,8 +15,7 @@ public class EmployeeWageMain {
 
         empWageBuilder.computeEmpWage();
 
-        System.out.println("Queried Total Wage for TCS: " +
-                empWageBuilder.getTotalWage("TCS"));
+        System.out.println("Queried Total Wage for TCS: "
+                + empWageBuilder.getTotalWage("TCS"));
     }
 }
-
