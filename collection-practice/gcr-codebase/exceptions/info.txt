@@ -1,3 +1,0 @@
-This is the first line of info.txt file.
-This file is used for testing try-with-resources in Java.
-Exception handling is important in programming!

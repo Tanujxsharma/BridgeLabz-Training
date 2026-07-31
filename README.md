@@ -1,268 +1,291 @@
-<h1 align="center"> BridgeLabz Training Program</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Day 1 - DBMS Fundamentals & SQL</title>
 
-<p align="center">
-  A structured and hands-on learning journey 
-</p>
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, Helvetica, sans-serif;
+        }
 
-<hr/>
+        body{
+            background:#f4f6f9;
+            color:#333;
+            padding:40px;
+            line-height:1.7;
+        }
 
-<p>
-The purpose of this repository is to strengthen Java concepts,
-enhance problem-solving abilities, and promote <b>clean coding practices</b>
-through consistent daily practice.
-</p>
+        .container{
+            max-width:1000px;
+            margin:auto;
+            background:white;
+            padding:40px;
+            border-radius:10px;
+            box-shadow:0 5px 15px rgba(0,0,0,.1);
+        }
 
-<hr/>
+        h1{
+            color:#0066cc;
+            text-align:center;
+            margin-bottom:10px;
+        }
 
-<h2>📊 Repository Overview</h2>
+        h2{
+            color:#0d6efd;
+            margin-top:35px;
+            margin-bottom:10px;
+            border-left:5px solid #0d6efd;
+            padding-left:10px;
+        }
 
-<table>
-  <tr>
-    <td><b>Status</b></td>
-    <td>Active Development</td>
-  </tr>
-  <tr>
-    <td><b>Primary Language</b></td>
-    <td>Java</td>
-  </tr>
-  <tr>
-    <td><b>Recommended JDK</b></td>
-    <td>Java 11+ (Java 17 Preferred)</td>
-  </tr>
-  <tr>
-    <td><b>IDE Support</b></td>
-    <td>IntelliJ IDEA, Eclipse, VS Code (Java Extensions)</td>
-  </tr>
-  <tr>
-    <td><b>Version Control</b></td>
-    <td>Git & GitHub</td>
-  </tr>
-  <tr>
-    <td><b>Author</b></td>
-    <td>Tanuj Sharma</td>
-  </tr>
-</table>
+        h3{
+            color:#444;
+            margin-top:20px;
+        }
 
-<hr/>
+        p{
+            margin:10px 0;
+        }
 
-<h2>📁 Repository Structure</h2>
+        ul{
+            margin-left:25px;
+            margin-top:10px;
+        }
 
-<pre>
-BridgeLabz-Training/
-│
-├── core-java-practice/
-│   ├── gcr-codebase/
-│   │   ├── programming-elements/
-│   │   └── control-flow/
-│   ├── leet-code-codebase/
-│   └── scenario-based/
-│
-├── oops-practice/
-│   ├── gcr-codebase/
-│   │   ├── inheritance/
-│   │   ├── encapsulation/
-│   │   └── polymorphism/
-│   ├── scenario-based/
-│   └── leet-code-codebase/
-│
-├── dsa-practice/
-│   ├── gcr-codebase/
-│   │   ├── linkedlist/
-│   │   ├── stack-queue/
-│   ├── scenario-based/
-│   └── leet-code-codebase/
-│
-├── collection-practice/
-│   ├── gcr-codebase/
-│   │   ├── generics/
-│   │   ├── collections/
-│   │   ├── streams/
-│   ├── scenario-based/
-│   └── leet-code-codebase/
-│
-├── io-programming-practice/
-│   ├── gcr-codebase/
-│   │   ├── csv-datahandling/
-│   │   ├── json-datahandling/
-│   ├── scenario-based/
-│   └── leet-code-codebase/
-|
-├── java-8-features-practice/
-│   ├── gcr-codebase/
-│   │   ├── functional-interface/
-│   │   ├── lambda-excressions/
-│   │   ├── stream-api/
-│   ├── scenario-based/
-│   └── leet-code-codebase/
-│
-│
-└── reviews/
-</pre>
+        li{
+            margin:8px 0;
+        }
 
-<hr/>
+        .header{
+            text-align:center;
+            margin-bottom:30px;
+        }
 
-<h2>🔗 Direct Branch Links</h2>
+        .card{
+            background:#f8f9fa;
+            padding:18px;
+            border-radius:8px;
+            margin-top:15px;
+            border-left:5px solid #0d6efd;
+        }
 
-<ul>
-  <li>📂 <b>Core Java Practice</b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice">
-      View Branch
-    </a>
-  </li>
-  <li>📂 <b>OOPS Practice</b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice">
-      View Branch
-    </a>
-  </li>
-  <li>📂 <b>DSA Practice</b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice">
-      View Branch
-    </a>
-  </li>
-  <li>📂 <b>Collection Practice</b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice">
-      View Branch
-    </a>
-  </li>
-   <li>📂 <b>IO programming </b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice">
-      View Branch
-    </a>
-  </li>
-  <li>📂 <b>Java 8 and it's features  </b> —
-    <a href="https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice">
-      View Branch
-    </a>
-  </li>
-</ul>
+        footer{
+            margin-top:40px;
+            text-align:center;
+            color:gray;
+            font-size:14px;
+        }
 
-<hr/>
->>>>>>> main
+        code{
+            background:#ececec;
+            padding:2px 5px;
+            border-radius:4px;
+        }
 
-<h2>📅 Learning Progression</h2>
-Daily / Level-wise Breakdown
+    </style>
 
-- **16/dec/2025:** Kick Off Session. 
-<<<<<<< core-java-practice
-- **17/dec/2025:** Programming elements Basic problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **18/dec/2025:** Programming element Level 1 and Level 2 problems solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **19/dec/2025:** Control flow Level 1 ,Level 2 and Level 3 Problems Solved. [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
-- **20/dec/2025:** Arrays Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
-- **22/dec/2025:** String Problems Solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
+</head>
+<body>
 
-All exercises are mapped under
-`core-java-practice/gcr-codebase/`
+<div class="container">
 
-<h2>▶️ How to Run Java Programs</h2>
-Compile and Run a Single File 
+<div class="header">
+<h1> Day 1 - DBMS Fundamentals & SQL</h1>
+<p><strong>Database Learning Journey</strong></p>
+<p>Health Clinic Database Project</p>
+</div>
 
-# Compile 
-
-javac ExampleProblem.java 
-=======
-- **17/dec/2025:** Programming elements Basic problems solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **18/dec/2025:** Programming element Level 1 and Level 2 problems solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/programming-elements)
-- **19/dec/2025:** Control flow Level 1 ,Level 2 and Level 3 Problems Solved.  [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/control-flow)
-- **20/dec/2025:** Arrays Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/arrays)
-- **22/dec/2025:** String Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
-- **23/dec/2025:** Methods Problems Solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/methods)
-- **23/dec/2025:** String Extra Problems solved   [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/core-java-practice/core-java-practice/gcr-codebase/strings)
-- **24/dec/2025:** Class And Object problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oop/oop/gcr-codebase/class-and-object)
-- **24/dec/2025:** Constructors problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/constructors)
-- **26/dec/2025:** this, static, final key words and instanceof operator problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/keywords)
-- **26/dec/2025:** Object Oriented Design Principles problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/design-princeples)
-- **26/dec/2025:** Inheritance problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/inheritance)
-- **26/dec/2025:** Encapsulation, Polymorphism, Interface and Abstract Class problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/gcr-codebase/oops-piller)
-- **30/dec/2025:** Linked List problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linkedlist)
-- **31/dec/2025:** Scenario based questation in opps [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/oops-practice/oops-pratctice/scenario-based)
-- **31/dec/2025:** linear and binary search problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/linear-and-binary-search)
-- **01/jan/2026:** time and space complexity analysis [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/dsa-practice/dsa-practice/gcr-codebase/time-and-space-complexity)
-- **02/jan/2026:** generics problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/generics)
-- **05/jan/2026:** review question solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/reviews/review)
-- **07/jan/2026:** collection problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/collections)
-- **07/jan/2026:** streams problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/streams)
-- **09/jan/2026:** exception handling problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/exceptions)
-- **13/jan/2026:** regex and Junit problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/regex-and-junit)
-- **16/jan/2026:** reflection practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
-- **16/jan/2026:** annotation practice problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/collection-practice/collection-practice/gcr-codebase/reflections)
-- **21/jan/2026:** Csv data handling [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/csv-data-handling)
-- **27/jan/2026:** Json data handling [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
-- **29/jan/2026:** Lamabda function problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/io-programming-practice/io-programming-practice/gcr-codebase/json-data-handling)
-- **30/jan/2026:** Functional Interface problem solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/functional-interface)
-- **31/jan/2026:** Stream Api Problemed solved [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/stream-api)
-- **31/jan/2026:** Collectors [Link](https://github.com/Tanujxsharma/BridgeLabz-Training/tree/java-8-features-practice/java-8-features-practice/gcr-codebase/collectors)
-
-<hr/>
-
-<h2>▶️ How to Run Java Programs</h2>
-
-<pre>
-# Compile
-javac ExampleProblem.java
-
-# Run
-java ExampleProblem
-
-If packages are used:
-java path.to.ExampleProblem
-
-<h2>🛠 Technology Stack</h2>
-
-Language: Java ,JDK: 11+ (17 recommended) 
-
-Build Tool: None (single-file compilation) 
-
-Version Control: Git & GitHub
-
-<h2>✅ Code Quality & Practices</h2>
-One problem per file for clarity
-Meaningful class and file names
-Simple and readable implementations
-Input validation where applicable
-Focus on learning and correctness over optimization
-
-<h2>📅 Last Updated</h2>
-December 2025
-<h2>👤 Author</h2>
-Tanuj Sharma
-=======
-# If packages are used
-java package.name.ExampleProblem
-</pre>
-
-<hr/>
-
-<h2>🛠 Technology Stack</h2>
-
-<ul>
-  <li><b>Language:</b> Java</li>
-  <li><b>JDK:</b> 11+ (Java 17 Recommended)</li>
-  <li><b>Build Tool:</b> None (Single-file compilation)</li>
-  <li><b>Version Control:</b> Git & GitHub</li>
-</ul>
-
-<hr/>
-
-<h2>✅ Coding Standards & Best Practices</h2>
-
-<ul>
-  <li>One problem per file for better clarity</li>
-  <li>Meaningful class and file naming conventions</li>
-  <li>Clean, readable, and maintainable code</li>
-  <li>Input validation where applicable</li>
-  <li>Focus on correctness and learning over premature optimization</li>
-</ul>
-
-<hr/>
-
-<h2>📅 Last Updated</h2>
-
-<p>March 2026</p>
-
-<hr/>
-
-<h2>👤 Author</h2>
+<div class="card">
+<strong>Overview</strong>
 
 <p>
-<b>Tanuj Sharma</b><br/>
+Today we covered the complete foundation of Database Management Systems,
+Relational Databases, SQL basics, MySQL installation, SQL commands,
+database design principles, normalization, joins and industry best practices.
 </p>
+</div>
+
+<h2> Topics Covered</h2>
+
+<h3>1. Database Fundamentals</h3>
+
+<ul>
+<li>What is Data?</li>
+<li>Database</li>
+<li>DBMS</li>
+<li>File System vs DBMS</li>
+<li>Advantages of DBMS</li>
+<li>Types of DBMS</li>
+<li>RDBMS</li>
+<li>Features of RDBMS</li>
+<li>Relational vs Non-Relational Database</li>
+<li>SQL vs NoSQL</li>
+<li>When to use SQL</li>
+<li>When to use NoSQL</li>
+</ul>
+
+<h3>2. Introduction to MySQL</h3>
+
+<ul>
+<li>Introduction to MySQL</li>
+<li>MySQL Architecture</li>
+<li>Installing MySQL</li>
+<li>MySQL CLI</li>
+<li>Creating Databases</li>
+<li>Creating Tables</li>
+<li>Understanding Storage Engine</li>
+</ul>
+
+<h3>3. SQL Command Categories</h3>
+
+<ul>
+<li>DDL (CREATE, ALTER, DROP, TRUNCATE, RENAME)</li>
+<li>DML (INSERT, UPDATE, DELETE)</li>
+<li>DQL (SELECT)</li>
+<li>TCL (COMMIT, ROLLBACK, SAVEPOINT)</li>
+<li>DCL (GRANT, REVOKE)</li>
+</ul>
+
+<h3>4. SQL Keys</h3>
+
+<ul>
+<li>Primary Key</li>
+<li>Foreign Key</li>
+<li>Candidate Key</li>
+<li>Composite Key</li>
+<li>Unique Key</li>
+</ul>
+
+<h3>5. SQL Joins</h3>
+
+<ul>
+<li>INNER JOIN</li>
+<li>LEFT JOIN</li>
+<li>RIGHT JOIN</li>
+<li>FULL OUTER JOIN</li>
+<li>CROSS JOIN</li>
+<li>SELF JOIN</li>
+</ul>
+
+<h3>6. Database Normalization</h3>
+
+<ul>
+<li>First Normal Form (1NF)</li>
+<li>Second Normal Form (2NF)</li>
+<li>Third Normal Form (3NF)</li>
+<li>BCNF</li>
+<li>Fourth Normal Form (4NF)</li>
+<li>Denormalization</li>
+</ul>
+
+<h3>7. Database Design Best Practices</h3>
+
+<ul>
+<li>Choosing Proper Data Types</li>
+<li>Primary & Foreign Keys</li>
+<li>Constraints</li>
+<li>Default Values</li>
+<li>Normalization</li>
+<li>Naming Conventions</li>
+</ul>
+
+<h3>8. Query Optimization</h3>
+
+<ul>
+<li>Efficient SQL Queries</li>
+<li>Using EXPLAIN</li>
+<li>Prepared Statements</li>
+<li>Stored Procedures</li>
+<li>Optimizing WHERE Clause</li>
+<li>Pagination (LIMIT & OFFSET)</li>
+</ul>
+
+<h3>9. Performance Optimization</h3>
+
+<ul>
+<li>Connection Pooling</li>
+<li>Transactions</li>
+<li>Partitioning</li>
+<li>Sharding</li>
+<li>Caching</li>
+<li>Indexing Basics</li>
+</ul>
+
+<h3>10. Security Best Practices</h3>
+
+<ul>
+<li>SQL Injection Prevention</li>
+<li>Parameterized Queries</li>
+<li>User Roles</li>
+<li>Least Privilege Principle</li>
+<li>Data Encryption</li>
+</ul>
+
+<h3>11. Backup & Recovery</h3>
+
+<ul>
+<li>Database Backups</li>
+<li>Monitoring</li>
+<li>Replication</li>
+<li>Failover</li>
+</ul>
+
+<h3>12. Industry Standards</h3>
+
+<ul>
+<li>ACID Properties</li>
+<li>GDPR / HIPAA / PCI-DSS Awareness</li>
+<li>Schema Documentation</li>
+<li>Version Control for Database</li>
+</ul>
+
+<h3>13. Practical Session</h3>
+
+<ul>
+<li>Installed MySQL</li>
+<li>Configured MySQL Server</li>
+<li>Used MySQL CLI</li>
+<li>Created Database</li>
+<li>Created Tables</li>
+<li>Inserted Records</li>
+<li>Updated Records</li>
+<li>Deleted Records</li>
+<li>Modified Tables</li>
+<li>Executed SQL Queries</li>
+<li>Created Database Users</li>
+</ul>
+
+<h2> Learning Outcomes</h2>
+
+<ul>
+<li>Understand DBMS and RDBMS concepts.</li>
+<li>Understand SQL vs NoSQL.</li>
+<li>Install and configure MySQL.</li>
+<li>Create databases and tables.</li>
+<li>Perform CRUD operations.</li>
+<li>Understand SQL command categories.</li>
+<li>Write JOIN queries.</li>
+<li>Understand Normalization.</li>
+<li>Learn database design principles.</li>
+<li>Follow SQL industry best practices.</li>
+<li>Write secure and optimized SQL queries.</li>
+</ul>
+
+<h2> Technologies Used</h2>
+
+<ul>
+<li>MySQL Server</li>
+<li>MySQL Command Line Client</li>
+<li>SQL</li>
+</ul>
+
+
+
+</div>
+
+</body>
+</html>
