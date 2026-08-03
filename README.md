@@ -1,203 +1,157 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Day 1 - DBMS Fundamentals & SQL</title>
+# Day 1 - DBMS Fundamentals & SQL
 
-    <style>
-        *{
-            margin:0;
-            padding:0;
-            box-sizing:border-box;
-            font-family:Arial, Helvetica, sans-serif;
-        }
+## Database Learning Journey
 
-        body{
-            background:#f4f6f9;
-            color:#333;
-            padding:40px;
-            line-height:1.7;
-        }
+**Health Clinic Database Project**
 
-        .container{
-            max-width:1000px;
-            margin:auto;
-            background:white;
-            padding:40px;
-            border-radius:10px;
-            box-shadow:0 5px 15px rgba(0,0,0,.1);
-        }
+## Overview
 
-        h1{
-            color:#0066cc;
-            text-align:center;
-            margin-bottom:10px;
-        }
+Today we covered the foundational concepts of Database Management Systems, relational databases, SQL basics, MySQL installation, SQL commands, database design principles, normalization, joins, and industry best practices.
 
-        h2{
-            color:#0d6efd;
-            margin-top:35px;
-            margin-bottom:10px;
-            border-left:5px solid #0d6efd;
-            padding-left:10px;
-        }
+## Topics Covered
 
-        h3{
-            color:#444;
-            margin-top:20px;
-        }
+### 1. Database Fundamentals
 
-        p{
-            margin:10px 0;
-        }
+- What is Data?
+- Database
+- DBMS
+- File System vs DBMS
+- Advantages of DBMS
+- Types of DBMS
+- RDBMS
+- Features of RDBMS
+- Relational vs Non-Relational Database
+- SQL vs NoSQL
+- When to use SQL
+- When to use NoSQL
 
-        ul{
-            margin-left:25px;
-            margin-top:10px;
-        }
+### 2. Introduction to MySQL
 
-        li{
-            margin:8px 0;
-        }
+- Introduction to MySQL
+- MySQL Architecture
+- Installing MySQL
+- MySQL CLI
+- Creating Databases
+- Creating Tables
+- Understanding Storage Engine
 
-        .header{
-            text-align:center;
-            margin-bottom:30px;
-        }
+### 3. SQL Command Categories
 
-        .card{
-            background:#f8f9fa;
-            padding:18px;
-            border-radius:8px;
-            margin-top:15px;
-            border-left:5px solid #0d6efd;
-        }
+- DDL (CREATE, ALTER, DROP, TRUNCATE, RENAME)
+- DML (INSERT, UPDATE, DELETE)
+- DQL (SELECT)
+- TCL (COMMIT, ROLLBACK, SAVEPOINT)
+- DCL (GRANT, REVOKE)
 
-        footer{
-            margin-top:40px;
-            text-align:center;
-            color:gray;
-            font-size:14px;
-        }
+### 4. SQL Keys
 
-        code{
-            background:#ececec;
-            padding:2px 5px;
-            border-radius:4px;
-        }
+- Primary Key
+- Foreign Key
+- Candidate Key
+- Composite Key
+- Unique Key
 
-    </style>
+### 5. SQL Joins
 
-</head>
-<body>
+- INNER JOIN
+- LEFT JOIN
+- RIGHT JOIN
+- FULL OUTER JOIN
+- CROSS JOIN
+- SELF JOIN
 
-<div class="container">
+### 6. Database Normalization
 
-<div class="header">
-<h1> Day 1 - DBMS Fundamentals & SQL</h1>
-<p><strong>Database Learning Journey</strong></p>
-<p>Health Clinic Database Project</p>
-</div>
+- First Normal Form (1NF)
+- Second Normal Form (2NF)
+- Third Normal Form (3NF)
+- BCNF
+- Fourth Normal Form (4NF)
+- Denormalization
 
-<div class="card">
-<strong>Overview</strong>
+### 7. Database Design Best Practices
 
-<p>
-Today we covered the complete foundation of Database Management Systems,
-Relational Databases, SQL basics, MySQL installation, SQL commands,
-database design principles, normalization, joins and industry best practices.
-</p>
-</div>
+- Choosing proper data types
+- Primary & foreign keys
+- Constraints
+- Default values
+- Normalization
+- Naming conventions
 
-<h2> Topics Covered</h2>
+### 8. Query Optimization
 
-<h3>1. Database Fundamentals</h3>
+- Efficient SQL queries
+- Using EXPLAIN
+- Prepared statements
+- Stored procedures
+- Optimizing WHERE clauses
+- Pagination (LIMIT & OFFSET)
 
-<ul>
-<li>What is Data?</li>
-<li>Database</li>
-<li>DBMS</li>
-<li>File System vs DBMS</li>
-<li>Advantages of DBMS</li>
-<li>Types of DBMS</li>
-<li>RDBMS</li>
-<li>Features of RDBMS</li>
-<li>Relational vs Non-Relational Database</li>
-<li>SQL vs NoSQL</li>
-<li>When to use SQL</li>
-<li>When to use NoSQL</li>
-</ul>
+### 9. Performance Optimization
 
-<h3>2. Introduction to MySQL</h3>
+- Connection pooling
+- Transactions
+- Partitioning
+- Sharding
+- Caching
+- Indexing basics
 
-<ul>
-<li>Introduction to MySQL</li>
-<li>MySQL Architecture</li>
-<li>Installing MySQL</li>
-<li>MySQL CLI</li>
-<li>Creating Databases</li>
-<li>Creating Tables</li>
-<li>Understanding Storage Engine</li>
-</ul>
+### 10. Security Best Practices
 
-<h3>3. SQL Command Categories</h3>
+- SQL injection prevention
+- Parameterized queries
+- User roles
+- Least privilege principle
+- Data encryption
 
-<ul>
-<li>DDL (CREATE, ALTER, DROP, TRUNCATE, RENAME)</li>
-<li>DML (INSERT, UPDATE, DELETE)</li>
-<li>DQL (SELECT)</li>
-<li>TCL (COMMIT, ROLLBACK, SAVEPOINT)</li>
-<li>DCL (GRANT, REVOKE)</li>
-</ul>
+### 11. Backup & Recovery
 
-<h3>4. SQL Keys</h3>
+- Database backups
+- Monitoring
+- Replication
+- Failover
 
-<ul>
-<li>Primary Key</li>
-<li>Foreign Key</li>
-<li>Candidate Key</li>
-<li>Composite Key</li>
-<li>Unique Key</li>
-</ul>
+### 12. Industry Standards
 
-<h3>5. SQL Joins</h3>
+- ACID properties
+- GDPR / HIPAA / PCI-DSS awareness
+- Schema documentation
+- Version control for database changes
 
-<ul>
-<li>INNER JOIN</li>
-<li>LEFT JOIN</li>
-<li>RIGHT JOIN</li>
-<li>FULL OUTER JOIN</li>
-<li>CROSS JOIN</li>
-<li>SELF JOIN</li>
-</ul>
+### 13. Practical Session
 
-<h3>6. Database Normalization</h3>
+- Installed MySQL
+- Configured MySQL server
+- Used MySQL CLI
+- Created database
+- Created tables
+- Inserted records
+- Updated records
+- Deleted records
+- Modified tables
+- Executed SQL queries
+- Created database users
 
-<ul>
-<li>First Normal Form (1NF)</li>
-<li>Second Normal Form (2NF)</li>
-<li>Third Normal Form (3NF)</li>
-<li>BCNF</li>
-<li>Fourth Normal Form (4NF)</li>
-<li>Denormalization</li>
-</ul>
+## Learning Outcomes
 
-<h3>7. Database Design Best Practices</h3>
+- Understand DBMS and RDBMS concepts
+- Understand SQL vs NoSQL
+- Install and configure MySQL
+- Create databases and tables
+- Perform CRUD operations
+- Understand SQL command categories
+- Write JOIN queries
+- Understand normalization
+- Learn database design principles
+- Follow SQL industry best practices
+- Write secure and optimized SQL queries
 
-<ul>
-<li>Choosing Proper Data Types</li>
-<li>Primary & Foreign Keys</li>
-<li>Constraints</li>
-<li>Default Values</li>
-<li>Normalization</li>
-<li>Naming Conventions</li>
-</ul>
+## Technologies Used
 
-<h3>8. Query Optimization</h3>
+- MySQL Server
+- MySQL Command Line Client
+- SQL
 
-<ul>
-<li>Efficient SQL Queries</li>
-<li>Using EXPLAIN</li>
 <li>Prepared Statements</li>
 <li>Stored Procedures</li>
 <li>Optimizing WHERE Clause</li>
@@ -289,3 +243,153 @@ database design principles, normalization, joins and industry best practices.
 
 </body>
 </html>
+
+# Day 2 - Advanced Database Design & Query Optimization
+
+## Overview
+
+Building upon the concepts learned on Day 1, today's session focused on designing a more realistic database schema, implementing different types of relationships, verifying normalization using an actual table, understanding indexing strategies, and optimizing SQL queries using the EXPLAIN statement.
+
+---
+
+## Topics Covered
+
+### 14. Database Schema Extension
+
+- Extended the Health Clinic database
+- Added the Rooms table
+- Created a Doctor-Room relationship
+- Assigned doctors to consultation rooms
+- Inserted sample room data
+
+### 15. Entity Relationships
+
+- One-to-One Relationship
+- One-to-Many Relationship
+- Many-to-Many Relationship
+- Junction (Bridge) Tables
+- Foreign Keys
+- Cascading Deletes
+
+### 16. Practical Database Normalization
+
+Verified the patient_phones table satisfies:
+
+- First Normal Form (1NF)
+- Second Normal Form (2NF)
+- Third Normal Form (3NF)
+
+Topics covered:
+
+- Atomic values
+- Functional dependency
+- Partial dependency
+- Transitive dependency
+
+### 17. SQL Indexing
+
+- Why indexes are required
+- Single Column Index
+- Composite Index
+- Covering Index
+- Index selection
+- Query optimization using indexes
+
+### 18. EXPLAIN Statement
+
+Executed and analyzed query execution plans.
+
+Compared:
+
+- Query without index
+- Query using single-column index
+- Query using composite index
+
+Observed:
+
+- type
+- possible_keys
+- key
+- rows
+- Extra
+
+### 19. Covering Index
+
+- Created a covering index
+- Optimized reporting queries
+- Verified Using index in EXPLAIN
+- Reduced unnecessary table lookups
+
+### 20. SQL Performance Optimization
+
+- Table Scan vs Index Scan
+- Efficient indexing strategies
+- Choosing appropriate indexes
+- Avoiding unnecessary full table scans
+
+### 21. Practical Session
+
+Completed the following:
+
+- Extended database schema
+- Created the rooms table
+- Created the doctor_room junction table
+- Inserted sample data
+- Executed EXPLAIN on multiple queries
+- Compared query execution plans
+- Created covering indexes
+- Verified database normalization
+
+---
+
+## Additional Learning Outcomes
+
+By the end of Day 2, we were able to:
+
+- Design scalable relational databases
+- Create many-to-many relationships
+- Build junction tables
+- Apply normalization practically
+- Create efficient indexes
+- Analyze SQL execution plans
+- Improve query performance
+- Understand how MySQL chooses indexes
+- Design optimized database schemas
+
+---
+
+## Assignment Completed
+
+- Extended the Health Clinic schema with Rooms and Doctor-Room relationship.
+- Verified the patient_phones table satisfies 1NF, 2NF, and 3NF.
+- Created and tested Single Column, Composite, and Covering indexes.
+- Compared query execution plans using EXPLAIN.
+- Optimized reporting queries using covering indexes.
+
+---
+
+## Technologies Used (Updated)
+
+- MySQL Server
+- MySQL Command Line Client
+- SQL
+- EXPLAIN
+- Indexes
+- Relational Database Design
+- Query Optimization
+
+---
+
+## Next Learning Goals
+
+- Aggregate Functions
+- GROUP BY
+- HAVING
+- ORDER BY
+- SQL Functions
+- Views
+- Stored Procedures
+- Triggers
+- Transactions
+- ACID Properties (Practical)
+- Advanced SQL Queries
