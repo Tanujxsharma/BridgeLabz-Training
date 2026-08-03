@@ -243,6 +243,7 @@ Today we covered the foundational concepts of Database Management Systems, relat
 
 </body>
 </html>
+<<<<<<< HEAD
 
 # Day 2 - Advanced Database Design & Query Optimization
 
@@ -393,3 +394,5 @@ By the end of Day 2, we were able to:
 - Transactions
 - ACID Properties (Practical)
 - Advanced SQL Queries
+=======
+>>>>>>> 272713f3072ecfb52d97ecdbcc707151b230a873
