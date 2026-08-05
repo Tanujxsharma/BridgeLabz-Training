@@ -385,3 +385,185 @@ Today we moved from single-table queries to combining data across multiple relat
 - Transactions
 - ACID Properties (Practical)
 - Advanced SQL Queries
+
+---
+
+# Day 4 - JDBC and MySQL
+
+## Overview
+Today I completed the complete JDBC implementation for my Health Clinic Management System project using Java, MySQL, JDBC, and Maven following a layered architecture.
+
+## Database
+- Designed and created the Health Clinic database in MySQL.
+- Created tables:
+  - Patients
+  - Doctors
+  - Specializations
+  - Doctor Specializations (Many-to-Many)
+  - Appointments
+  - Billing
+  - Visit History
+  - Audit Log
+- Added:
+  - Primary Keys
+  - Foreign Keys
+  - Unique Constraints
+  - Indexes
+  - Triggers
+  - Sample Data
+
+## Project Structure
+```
+HealthClinicApp
+│
+├── config
+│   └── DatabaseConnection.java
+│
+├── dto
+│   ├── Patient.java
+│   ├── Doctor.java
+│   ├── Specialization.java
+│   ├── Appointment.java
+│   ├── Billing.java
+│   └── VisitHistory.java
+│
+├── dao
+│   ├── PatientDAO
+│   ├── PatientDAOImpl
+│   ├── DoctorDAO
+│   ├── DoctorDAOImpl
+│   ├── SpecializationDAO
+│   ├── SpecializationDAOImpl
+│   ├── AppointmentDAO
+│   ├── AppointmentDAOImpl
+│   ├── BillingDAO
+│   ├── BillingDAOImpl
+│   ├── VisitHistoryDAO
+│   └── VisitHistoryDAOImpl
+│
+├── service
+│   └── AppointmentService.java
+│
+├── ui
+│   └── ConsoleMenu.java
+│
+└── Main.java
+```
+
+## JDBC Concepts Learned
+
+### JDBC Architecture
+- DriverManager
+- Connection
+- PreparedStatement
+- ResultSet
+- SQLException Handling
+
+### CRUD Operations
+Implemented complete CRUD operations for:
+- Patient
+- Doctor
+- Specialization
+- Appointment
+- Billing
+- Visit History
+
+Operations included:
+- INSERT
+- SELECT By ID
+- SELECT ALL
+- UPDATE
+- DELETE
+
+### PreparedStatement
+Used PreparedStatement for every SQL query to:
+- Prevent SQL Injection
+- Improve Performance
+- Bind Parameters Safely
+
+### ResultSet Mapping
+Converted database records into Java DTO objects.
+
+### Auto Generated Keys
+Learned how to retrieve auto-generated primary keys.
+
+### Try-With-Resources
+Used try-with-resources to automatically close:
+- Connection
+- PreparedStatement
+- ResultSet
+
+### DAO Pattern
+Implemented DAO (Data Access Object) pattern.
+
+### DTO Pattern
+Created DTO classes for every database table.
+
+### Layered Architecture
+Console UI
+      │
+      ▼
+Service Layer
+      │
+      ▼
+DAO Layer
+      │
+      ▼
+Database
+
+Each layer has a single responsibility.
+
+### Transaction Management
+Implemented transaction handling inside AppointmentService.
+
+### Business Logic
+Implemented a real-world business workflow:
+- Complete Appointment
+- Update Appointment Status
+- Generate Bill
+- Store Visit History
+- Commit Transaction
+
+If any query fails:
+- Rollback
+
+### Console Application
+Built a menu-driven console application capable of:
+- Register Patient
+- View Patient
+- View All Patients
+- Register Doctor
+- View Doctors
+- Book Appointment
+- Complete Appointment
+
+### Technologies Used
+- Java
+- JDBC
+- MySQL
+- Maven
+- MySQL Workbench
+- IntelliJ IDEA
+- Git
+- GitHub
+
+### Key Concepts Practiced
+- JDBC API
+- CRUD Operations
+- PreparedStatement
+- ResultSet
+- DAO Pattern
+- DTO Pattern
+- Layered Architecture
+- Transaction Management
+- Exception Handling
+- Connection Management
+- Auto Generated Keys
+- SQL Integration with Java
+- Foreign Keys
+- Relationships
+- ACID Properties
+- Commit & Rollback
+
+### Outcome
+Successfully developed a layered Health Clinic Management System using Java, JDBC, and MySQL, implementing complete CRUD operations, transaction management, and a modular architecture that follows real-world backend development practices.
