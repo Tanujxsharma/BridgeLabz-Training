@@ -2,7 +2,7 @@
 
 ## Health Clinic Database Project
 
-This README documents the learning progress across the first three days of the database training program.
+This README documents the learning progress across the first five days of the training program.
 
 ---
 
@@ -567,3 +567,85 @@ Built a menu-driven console application capable of:
 
 ### Outcome
 Successfully developed a layered Health Clinic Management System using Java, JDBC, and MySQL, implementing complete CRUD operations, transaction management, and a modular architecture that follows real-world backend development practices.
+
+---
+
+# Day 5 - Java Servlet Fundamentals
+
+## Topics Covered
+
+### Java Servlet Basics
+- Introduction to Java Servlets
+- Understanding the role of Servlets in Java Web Applications
+- Servlet Architecture
+- Servlet Life Cycle Overview
+
+### Apache Tomcat
+- Downloading and configuring Apache Tomcat 10
+- Setting up JAVA_HOME and environment variables
+- Deploying WAR files on Tomcat
+- Understanding the webapps directory and application deployment
+- Running and testing applications on the Tomcat server
+
+### Maven Web Application
+- Creating a Maven-based Dynamic Web Project
+- Project structure for Servlet applications
+- Configuring pom.xml
+- WAR packaging and Maven build process
+
+### Servlet Development
+- Creating a Servlet by extending HttpServlet
+- Mapping Servlets using @WebServlet
+- Understanding HttpServletRequest
+- Understanding HttpServletResponse
+- Using PrintWriter to send responses to the client
+
+### HTTP Methods
+- Implementing doGet()
+- Implementing doPost()
+- Difference between GET and POST requests
+- Handling request parameters using request.getParameter()
+
+### HTML Form Integration
+- Creating HTML forms
+- Form submission using GET and POST methods
+- Connecting HTML forms with Servlets
+- Processing user input on the server
+
+### Project Completed
+- Greeting Application using Java Servlet
+  - HTML Form
+  - Servlet Mapping
+  - GET Request Handling
+  - POST Request Handling
+  - Dynamic Response Generation
+
+### Troubleshooting and Debugging
+- Fixing JAVA_HOME configuration issues
+- Resolving Tomcat deployment problems
+- Fixing HTTP 404 (Not Found)
+- Fixing HTTP 405 (Method Not Allowed)
+- Understanding WAR deployment and project structure
+- Rebuilding and redeploying Maven projects
+
+## Technologies Used
+- Java 21
+- Jakarta Servlet API 6
+- Apache Tomcat 10
+- Maven
+- HTML
+- IntelliJ IDEA
+
+## Key Concepts Learned
+- Java Servlet Fundamentals
+- Web Application Deployment
+- Request-Response Cycle
+- Servlet Mapping
+- GET vs POST
+- Form Handling
+- Tomcat Configuration
+- Maven WAR Packaging
+- Basic Web Application Debugging
+
+## Outcome
+Successfully built and deployed a Java Servlet-based Greeting Application using Apache Tomcat, implemented both GET and POST request handling, integrated HTML forms with Servlets, and gained hands-on experience in configuring, deploying, and debugging Java web applications.
