@@ -649,3 +649,46 @@ Successfully developed a layered Health Clinic Management System using Java, JDB
 
 ## Outcome
 Successfully built and deployed a Java Servlet-based Greeting Application using Apache Tomcat, implemented both GET and POST request handling, integrated HTML forms with Servlets, and gained hands-on experience in configuring, deploying, and debugging Java web applications.
+
+
+# Day 6 – Spring MVC and CRUD Operations
+
+## Topics Covered
+
+### Spring MVC Fundamentals
+- Introduction to Spring MVC architecture
+- Understanding the Model, View, and Controller pattern
+- Understanding the role of `DispatcherServlet`
+- Difference between Java Servlet and Spring MVC
+- Understanding request and response handling in Spring MVC
+
+### Spring Boot Setup
+- Creating a Spring Boot Maven project
+- Configuring Spring MVC using Maven dependencies
+- Using `spring-boot-starter-web`
+- Understanding embedded Tomcat
+- Running a Spring MVC application without installing an external Tomcat server
+- Configuring Java 21 with Spring Boot
+
+### MVC Architecture
+
+Implemented the following application flow:
+
+```text
+Client
+   |
+   v
+DispatcherServlet
+   |
+   v
+Controller
+   |
+   v
+Service
+   |
+   v
+Repository
+   |
+   v
+Data
+
