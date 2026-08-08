@@ -1,8 +1,8 @@
 # BridgeLabz Training - Database Learning Journey
 
-## Health Clinic Database Project
 
-This README documents the learning progress across the first five days of the training program.
+
+This README documents the learning progress across the days of the training program.
 
 ---
 
