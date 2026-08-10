@@ -691,4 +691,86 @@ Repository
    |
    v
 Data
+---
+
+# Day 7 - Contact Management REST API
+
+## Overview
+
+On Day 7, I built a basic Contact Management REST API using Spring Boot.
+
+The main focus of this project was understanding layered architecture, REST APIs, DTOs, service interfaces, service implementations, Spring Data JPA, Lombok, validation, and H2 database configuration.
+
+The application currently supports two operations:
+
+- Create a contact
+- Get all contacts
+
+---
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- H2 Database
+- Lombok
+- Jakarta Validation
+- Maven
+
+---
+
+## Project Architecture
+
+The application follows a layered architecture:
+
+```text
+Client
+   |
+   v
+Controller
+   |
+   v
+DTO
+   |
+   v
+Service Interface
+   |
+   v
+Service Implementation
+   |
+   v
+Repository
+   |
+   v
+Entity
+   |
+   v
+H2 Database
+
+src/main/java/com/contactapp/
+│
+├── controller/
+│   └── ContactController.java
+│
+├── dto/
+│   ├── ContactRequestDto.java
+│   └── ContactResponseDto.java
+│
+├── entity/
+│   └── Contact.java
+│
+├── repository/
+│   └── ContactRepository.java
+│
+├── service/
+│   ├── ContactService.java
+│   └── ContactServiceImpl.java
+│
+└── ContactAppApplication.java
+```
+
+---
+
 
