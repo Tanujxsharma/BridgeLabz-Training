@@ -692,7 +692,7 @@ Repository
    v
 Data
 ---
-
+```
 # Day 7 - Contact Management REST API
 
 ## Overview
@@ -771,6 +771,5 @@ src/main/java/com/contactapp/
 └── ContactAppApplication.java
 ```
 
----
 
 
