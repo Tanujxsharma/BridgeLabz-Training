@@ -8,4 +8,5 @@ import java.util.List;
 public interface ContactService {
     ContactResponseDto createContact(ContactRequestDto requestDto);
     List<ContactResponseDto> getAllContacts();
+    ContactResponseDto getById(Long id);
 }

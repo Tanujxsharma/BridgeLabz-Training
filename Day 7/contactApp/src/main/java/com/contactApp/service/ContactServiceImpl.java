@@ -1,4 +1,4 @@
-package com.contactapp.service;
+package com.contactApp.service;
 
 import com.contactApp.dto.ContactRequestDto;
 import com.contactApp.dto.ContactResponseDto;
@@ -40,6 +40,14 @@ public class ContactServiceImpl implements ContactService {
                 .map(this::convertToResponseDto)
                 .toList();
     }
+
+    @Override
+    public ContactResponseDto getById(Long id) {
+        Contact contact = contactRepository.findById(id).orElseThrow(()->
+                new RuntimeException("can Not find "));
+        return convertToResponseDto(contact);
+    }
+
 
     private ContactResponseDto convertToResponseDto(Contact contact) {
 

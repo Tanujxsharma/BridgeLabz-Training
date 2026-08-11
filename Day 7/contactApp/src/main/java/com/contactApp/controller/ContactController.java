@@ -18,7 +18,7 @@ public class ContactController {
         this.contactService = contactService;
     }
 
-    @PostMapping
+    @PostMapping("/create")
     public ResponseEntity<ContactResponseDto> createContact(
             @RequestBody ContactRequestDto requestDto) {
 
@@ -29,12 +29,16 @@ public class ContactController {
     }
 
 
-    @GetMapping
+    @GetMapping("/getAll")
     public ResponseEntity<List<ContactResponseDto>> getAllContacts() {
 
         return ResponseEntity.ok(
                 contactService.getAllContacts()
         );
+    }
+    @GetMapping("/{id}")
+    public ResponseEntity<ContactResponseDto> getById( @PathVariable Long id){
+        return ResponseEntity.ok(contactService.getById(id));
     }
 
 }
