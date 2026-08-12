@@ -771,5 +771,51 @@ src/main/java/com/contactapp/
 └── ContactAppApplication.java
 ```
 
+# Day 8 - Student Management REST API
 
+## Overview
 
+On Day 8, I continued building a Student Management application using Spring Boot and implemented the basic REST API architecture for adding students.
+
+The application follows a layered architecture using:
+
+- Controller
+- Service
+- Repository
+- Entity
+- DTO
+
+The main focus was understanding how a request moves through the application, how DTOs are used to transfer data, and how Spring Data JPA saves entities into the database.
+
+## Technologies Used
+
+- Java
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- Lombok
+- H2 Database
+- Maven
+
+## Project Structure
+
+```text
+src/main/java/com/collage
+│
+├── controller
+│   └── StudentController.java
+│
+├── dto
+│   ├── StudentRequestDto.java
+│   └── StudentResponseDto.java
+│
+├── entity
+│   └── Student.java
+│
+├── repository
+│   └── StudentRepository.java
+│
+└── service
+    ├── StudentService.java
+    └── StudentServiceImpl.java
