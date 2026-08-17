@@ -844,3 +844,14 @@ src/main/java/com/collage
 - Applied the same layered architecture to a second Spring Boot application (Employee Payroll App).
 
 ---
+
+# Day 11 - Spring Services, Spring JPA & Spring JDBC
+
+- Formalized the three-layer architecture — clearly defined what belongs in a Controller, a Service, and a DAO/Repository.
+- Practiced Spring REST API service-layer design.
+- Learned Spring JPA — repositories and entity mapping, including writing a Spring Data JPA repository interface with full CRUD and no implementation class required.
+- Learned Spring JDBC — template-based data access using JdbcTemplate for cases needing direct SQL control without hand-written JDBC boilerplate.
+- Compared three approaches to relational data access: hand-written JDBC, JdbcTemplate, and Spring Data JPA — and when to choose each based on the actual requirement.
+- Rebuilt the Employee Payroll App using Spring Data JPA, completing its CRUD endpoints (GET/PUT/DELETE by ID) with appropriate HTTP status codes and the Controller → Service → DAO separation intact.
+
+---
