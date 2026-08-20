@@ -3,6 +3,7 @@ package com.employeePayRoll.controller;
 import com.employeePayRoll.dto.requestDto;
 import com.employeePayRoll.dto.responseDto;
 import com.employeePayRoll.service.EmployeeService;
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -29,7 +30,7 @@ public class EmployeeController {
 
     @PostMapping
     public ResponseEntity<responseDto> createEmployee(
-            @RequestBody requestDto request) {
+           @RequestBody requestDto request) {
 
         responseDto created = employeeService.createEmployee(request);
 
@@ -49,7 +50,7 @@ public class EmployeeController {
     }
 
     @DeleteMapping("/{id}")
-    public ResponseEntity<Void> deleteEmployee(@PathVariable Long id) {
+    public ResponseEntity<Void> deleteEmployee(  @PathVariable Long id) {
 
         employeeService.deleteEmployee(id);
 
